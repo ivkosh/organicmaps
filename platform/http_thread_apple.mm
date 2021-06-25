@@ -8,7 +8,7 @@
 #include "base/logging.hpp"
 #include "base/macros.hpp"
 
-#define TIMEOUT_IN_SECONDS 60.0
+#define TIMEOUT_IN_SECONDS 10.0
 
 @interface HttpThreadImpl ()<NSURLSessionDataDelegate>
 {
